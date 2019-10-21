@@ -1,0 +1,71 @@
+
+.header {
+    padding: 50px 57px;
+}
+
+
+.container {   
+    background: rgba(11, 13, 24, 0.6);
+    margin: 153px 295px;
+    border-radius: 10px; 
+}
+.booking-form {
+    padding: 35px 70px 51px 70px;
+}
+
+
+label {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    display: block;
+}
+
+input {
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+    padding: 13px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: grey;
+    font-family: Poppins;    
+    outline: none;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #fff;
+    background-image: url(../images/image-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    font-weight: 600;
+    font-family: Poppins;
+    margin: 0px;
+}
+
+.form-quantity {
+    width: 80px;
+}
+
+.form-submit {
+    width: 187px;
+}
+
+.submit {
+    background: #f8ba0f;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 23px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px){
+    .container {
+                    width: calc( 100% - 30px);
+                    max-width: 100%;
+                }
+}

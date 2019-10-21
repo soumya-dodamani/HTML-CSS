@@ -1,0 +1,117 @@
+
+body, html {
+    height: 94%;
+    color:#ccc;}
+
+body{
+    background-color: #FFB6C1;
+}
+
+
+.div-main-1{
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+
+.div-main-2{
+    max-width: 780px;
+    margin: 0 auto;
+}
+.div-middle{
+    background: #000;
+    margin: 4% 20% 4% 20%;
+    border-radius: 2%;   
+    
+
+}
+.div-card{
+    background: url(../images/bgRegister.jpeg) top left/cover no-repeat;
+    height: 100%;
+    width: 50%;
+    background-repeat: no-repeat;
+    /* object-fit: fill; */
+    background-size: cover;
+    border-bottom-left-radius: inherit;
+    border-top-left-radius: inherit;
+    display: table-cell;
+    /* padding: 288px; */
+}
+
+.div-card-records
+{
+display: table-cell;
+padding: 57px 65px;
+}
+
+input {
+    padding: 5px 0;
+    font-size: 16px;
+    color: #ccc;
+    background: #000;
+    border: transparent;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 33px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+}
+
+@media (max-width: 1024px)
+{
+.div-card-records, .div-card {
+    display: block;
+    width: 100%;
+    padding-top: 400px;
+    background-position: center center;
+}
+}
+@media (max-width: 1024px)
+{
+    .input-group{
+        display: block;
+        width: 65%;
+    /* padding-top: 400px; */
+    background-position: center center;
+}
+} 
+
+.btnSubmit
+{
+    
+    background: #57b846;    
+    border-radius: 20px; 
+    line-height: 40px;
+    padding: 0 33px;
+    color: #fff;
+    font-size: 18px;   
+    border: none;
+    cursor: pointer;
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-outer-spin-button
+{
+    /* Your CSS here */
+    display: none;
+}
+input[type="date"]{
+    border: none;
+    width: 100%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover{
+    /* Your CSS here */
+    background-color: transparent;
+}
+input:focus{
+    /* Your CSS here */
+    border: none;
+    outline: none;
+}
+
+.quantity::-webkit-inner-spin-button, 
+.quantity::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+} 
+
